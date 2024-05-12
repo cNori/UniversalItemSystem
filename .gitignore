@@ -1,5 +1,6 @@
 # Ignore Flax project files
 /Binaries/
+/Content/
 /Cache/
 /Logs/
 /Output/
