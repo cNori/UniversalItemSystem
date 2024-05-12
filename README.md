@@ -1,33 +1,33 @@
 > [!IMPORTANT]
-> <br>System in under develimponent is missing some key fetures</br>
-> 1. Multy Item Data Contener
-> 2. Visual Multy Item Data Contener
-> 3. NetCode for picking up items and droping it
-> 4. needs a pr https://github.com/FlaxEngine/FlaxEngine/pull/2591 with was not yet meged to engine 
+> <br>System in under development is missing some key features</br>
+> 1. Multi Item Data Container
+> 2. Visual Multi Item Data Container
+> 3. NetCode for picking up items and dropping it
+> 4. needs a pr https://github.com/FlaxEngine/FlaxEngine/pull/2591 with was not yet merged to engine
 
 # **Universal Item System for Flax Engine**
 
-Allows to make anny kind of item for any kind of game
+Allows to make any kind of item for any kind of game
 
 > [!NOTE]
 > System has some custom net code.
 
 # Design Inspiraction
-Pulled a idea from Minecraft item system.<br>Minecraft has very interesting item system just by looking at attributes from user view</br> So this system fallows this idea
+Pulled a idea from Minecraft item system.<br>Minecraft has very interesting item system just by looking at attributes from user view</br> So this system follows this idea
 
 # Item Structure
 
 | Type              | Role                                    |
 | -------------     | -------------                           |
-| Item              | Single Item Data Contener               |
-| Item::Data        | Runtime item representacion             |
-| Item::Attribute   | Runtime item attribute representacion   |
-| Item::Asset       | Static item representacion              |
+| Item              | Single Item Data Container              |
+| Item::Data        | Runtime Item representation             |
+| Item::Attribute   | Runtime item attribute representation   |
+| Item::Asset       | Static item representation              |
 
 > [!IMPORTANT]
 > Attributes can be any type
 > <br>The internal data is stored as byte array max size is 127 bytes</br>
-> Going past the 127 bytes limit wil couse the bytes to chopp by the item system
+> Going past the 127 bytes limit will cause the bytes to chopp by the item system
 
 # Attribute types
 - null - no data
