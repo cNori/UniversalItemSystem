@@ -1,0 +1,144 @@
+{
+	"ID": "be2de5bd4ebfcb2cd16e32b1ce712480",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6511,
+	"Data": [
+		{
+			"ID": "be2de5bd4ebfcb2cd16e32b1ce712480",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "195a32ac4b3a49105aaaceb124304689",
+			"PrefabID": "20ecd9ab483960e7d8591f9f7dac1e4e",
+			"PrefabObjectID": "4997c0df4a1d83a5b8a4c59329542ef5",
+			"ParentID": "be2de5bd4ebfcb2cd16e32b1ce712480",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": 73.87132263183594,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "3e7c04524d5697d71b0fc384e26d7679",
+			"PrefabID": "20ecd9ab483960e7d8591f9f7dac1e4e",
+			"PrefabObjectID": "53cd347d48f6115238d05da91caba527",
+			"ParentID": "195a32ac4b3a49105aaaceb124304689",
+			"ItemData": {
+				"NetworkReplicate": 109,
+				"Name": "poatato ",
+				"Asset": "8c428e7d42637cadc491d19d4d675eeb",
+				"Attributes": [
+					{
+						"IsRed": false,
+						"NetworkReplicate": 13
+					}
+				]
+			}
+		},
+		{
+			"ID": "d34543204be81c6629119ea96e54fe8f",
+			"PrefabID": "20ecd9ab483960e7d8591f9f7dac1e4e",
+			"PrefabObjectID": "8567a05b463afe302819dc9a6f1ff7a8",
+			"ParentID": "195a32ac4b3a49105aaaceb124304689"
+		},
+		{
+			"ID": "4ceccd814513df82406ac0b46405be50",
+			"PrefabID": "20ecd9ab483960e7d8591f9f7dac1e4e",
+			"PrefabObjectID": "fcf1e23143c976d5f5f563925178cd42",
+			"ParentID": "d34543204be81c6629119ea96e54fe8f",
+			"Buffer": {
+				"Entries": [
+					{}
+				]
+			}
+		},
+		{
+			"ID": "10b030914b45b8149b61fbb0b1dd15a8",
+			"PrefabID": "20ecd9ab483960e7d8591f9f7dac1e4e",
+			"PrefabObjectID": "37eb18974a8870d9ee382cbd36f6d119",
+			"ParentID": "4ceccd814513df82406ac0b46405be50"
+		},
+		{
+			"ID": "570e8f7a49638722b2311e8495bc14fd",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "be2de5bd4ebfcb2cd16e32b1ce712480",
+			"Name": "DirectionalLight",
+			"Transform": {
+				"Orientation": {
+					"X": 0.4149424135684967,
+					"Y": -0.45659658312797549,
+					"Z": 0.2544030547142029,
+					"W": 0.7447291612625122
+				}
+			}
+		},
+		{
+			"ID": "76ea4f734f8e3f7cf66aeaada74c3c7a",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "be2de5bd4ebfcb2cd16e32b1ce712480",
+			"Name": "Sky",
+			"Sun": "570e8f7a49638722b2311e8495bc14fd"
+		},
+		{
+			"ID": "9df1bbbd42a8623587f7b3a35da8dabc",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "be2de5bd4ebfcb2cd16e32b1ce712480",
+			"Name": "StaticModel",
+			"Transform": {
+				"Scale": {
+					"X": 20.0,
+					"Y": 0.10000000149011612,
+					"Z": 20.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2e24abe5410f002a67c9fb8b5acc3d14",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "9df1bbbd42a8623587f7b3a35da8dabc",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "9f8cf6764ac92a2639e4018a09a502ff",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "be2de5bd4ebfcb2cd16e32b1ce712480",
+			"Name": "Camera",
+			"Transform": {
+				"Translation": {
+					"X": -5.784173965454102,
+					"Y": 96.09598541259766,
+					"Z": -181.7574920654297
+				},
+				"Orientation": {
+					"X": 0.11634288728237152,
+					"Y": 0.0524027943611145,
+					"Z": -0.00614705728366971,
+					"W": 0.99180668592453
+				}
+			}
+		}
+	]
+}
