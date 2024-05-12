@@ -3,6 +3,7 @@
 > 1. Multy Item Data Contener
 > 2. Visual Multy Item Data Contener
 > 3. NetCode for picking up items and droping it
+> 4. needs a pr https://github.com/FlaxEngine/FlaxEngine/pull/2591 with was not yet meged to engine 
 
 # **Universal Item System for Flax Engine**
 
