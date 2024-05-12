@@ -6,7 +6,7 @@
 
 # **Universal Item System for Flax Engine**
 
-Allows to make anny kind of item
+Allows to make anny kind of item for any kind of game
 
 > [!NOTE]
 > System has some custom net code.
